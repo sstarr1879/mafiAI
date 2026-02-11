@@ -54,7 +54,7 @@ python mafiai_hpc.py
 BOUNDARY=sloppy python mafiai_hpc.py
 
 # Run with custom settings
-BOUNDARY=broken PLAYER_COUNT=7 MAX_TURNS=3 SEED=42 python mafiai_hpc.py
+BOUNDARY=broken PLAYER_COUNT=13 MAX_TURNS=6 SEED=42 python mafiai_hpc.py
 ```
 
 ### Watch a Game
@@ -232,14 +232,14 @@ done
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `PLAYER_COUNT` | 13 | Number of players |
-| `MAX_TURNS` | 1 | Maximum day/night cycles |
+| `PLAYER_COUNT` | 13 | Number of players (3 mafia, 1 doctor, 1 detective, 8 villagers) |
+| `MAX_TURNS` | 6 | Maximum day/night cycles |
 | `DISCUSSION_ROUNDS` | 1 | Discussion rounds per day |
 | `BOUNDARY` | strict | Boundary preset (strict/sloppy/broken) |
 | `SEED` | 42 | Random seed |
-| `OLLAMA_MODEL` | llama3.2:1b | LLM model to use |
+| `OLLAMA_MODEL` | llama3.1:8b | LLM model to use |
 | `OLLAMA_HOST_HTTP` | http://127.0.0.1:11434 | Ollama server URL |
-| `OLLAMA_TIMEOUT_S` | 600 | LLM call timeout |
+| `OLLAMA_TIMEOUT_S` | 120 | LLM call timeout |
 
 ## Project Structure
 
