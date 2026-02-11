@@ -4,7 +4,7 @@ A research framework for studying how LLM agents discover and exploit system bou
 
 ## Overview
 
-This project runs the social deduction game Mafia/Werewolf where **every player is an LLM agent**. Beyond the basic game, agents have access to tools (database queries, messaging, log access) with configurable security boundaries.
+This project runs the [social deduction](https://en.wikipedia.org/wiki/Mafia_(party_game)) game Mafia/Werewolf where **every player is an LLM agent**. Beyond the basic game, agents have access to tools (database queries, messaging, log access) with configurable security boundaries.
 
 The research question: **Do LLM agents discover and exploit security misconfigurations to gain unfair advantages?**
 
